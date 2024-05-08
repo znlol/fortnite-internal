@@ -1,0 +1,38 @@
+#pragma once
+
+#define OFFSET_GAME_STATE				0x158 //
+#define OFFSET_PERSISTENT_LEVEL			0x30 //
+#define OFFSET_LEVELS					0x170 //
+#define OFFSET_GAME_INSTANCE			0x1d0 //
+
+#define OFFSET_ACTOR_COUNT				0xA8 //
+#define OFFSET_AACTORS					0xA0 //
+
+#define OFFSET_LOCALPLAYERS				0x38 //
+
+#define OFFSET_VIEWPORT_CLIENT			0x78 //
+
+#define OFFSET_ACKNOWLEDGED_PAWN		0x338 //
+#define OFFSET_CAMERA_MANAGER			0x348 //
+#define OFFSET_LOCATION_UNDER_RETICLE	0x26b0 //
+
+#define OFFSET_PLAYERSTATE				0x2B0 //
+#define OFFSET_ROOT_COMPONENT			0x198 //
+#define OFFSET_SKELETAL_MESH			0x318 // 
+#define OFFSET_BISDBNO					0x93a // +
+#define OFFSET_CURRENT_WEAPON			0xa20 // +
+#define OFFSET_DESPAWNING				0x758 // bIsDying + 
+#define OFFSET_BUILDING_STATE			0x1e01 // +
+#define OFFSET_CURRENT_VEHICLE			0x2840 // +
+
+#define OFFSET_WEAPON_DEFINITION		0x4a8 // +
+#define OFFSET_PROJECTILE_SPEED         5752 + 288 // ??
+
+#define OFFSET_TIER						0x73
+
+#define OFFSET_TEAMINDEX				0x10e0 // +
+#define OFFSET_PAWNPRIVATE				0x308
+#define OFFSET_IS_BOT					0x29a
+
+#define OFFSET_RELATIVE_LOCATION		0x120
+#define OFFSET_COMPONENT_VELOCITY		0x168
